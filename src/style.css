@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.videoBlock{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    flex-basis: 60%;
+}
+
+.right{
+    flex-basis: 40%;
+}
+
+.leftVideo{
+    width:450px;
+    margin: 60px;
+}
+
+.videoItem{
+    width: 200px;
+    height: 400px;
+    margin: 80px;
+}
+
+.rightimg{
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+}
